@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeri - SMK Negeri 9 Manado</title>
+    <!-- CSS Dependencies -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Running Student Loader -->
+    <div class="page-loader" id="pageLoader">
+        <div class="loader-logo">SMECKNINE</div>
+    </div>
+
+    <div class="background-glow"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar glass">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <img src="kaaa.png" alt="Logo SMKN 9 Manado" class="navbar-logo">
+                <span class="logo-text">SMK NEGERI 9 <span>Manado</span></span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="profil.html">Profil</a></li>
+                <li><a href="jurusan.html">Jurusan</a></li>
+                <li><a href="fasilitas.html">Fasilitas</a></li>
+                <li><a href="galeri.html" class="active">Galeri</a></li>
+                <li><a href="kontak.html">Kontak</a></li>
+            </ul>
+            <div class="nav-cta">
+                <a href="https://spmb.sulutprov.go.id" class="btn btn-primary">PPDB 2026</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="page-header section">
+        <div class="container">
+            <h1>Galeri <span>Sekolah</span></h1>
+            <p>Kumpulan momen, prestasi, dan kebersamaan di lingkungan SMK Negeri 9 Manado.</p>
+        </div>
+    </header>
+
+    <section class="section">
+        <div class="container">
+            <div class="filter-container">
+                <button class="filter-btn active" data-filter="all">Semua Foto</button>
+                <button class="filter-btn" data-filter="guru">Guru & Staf</button>
+                <button class="filter-btn" data-filter="siswa">Siswa & Jurusan</button>
+                <button class="filter-btn" data-filter="kegiatan">Kegiatan</button>
+            </div>
+
+            <div class="gallery-grid">
+                <!-- 1. Staf & Guru -->
+                <div class="gallery-item reveal-item" data-category="guru">
+                    <img src="foto/WhatsApp Image 2026-02-07 at 22.23.33 (1).jpeg" alt="Dewan Guru SMKN 9 Manado">
+                    <div class="gallery-overlay">
+                        <h4>Dewan Guru SMKN 9 Manado</h4>
+                        <p>Tenaga pendidik profesional yang siap membimbing siswa menjadi tenaga kerja ahli.</p>
+                    </div>
+                </div>
+
+                <!-- 2. Siswa Keperawatan -->
+                <div class="gallery-item reveal-item" data-category="siswa">
+                    <img src="foto/WhatsApp Image 2026-02-07 at 22.23.32.jpeg" alt="Siswa Asisten Keperawatan">
+                    <div class="gallery-overlay">
+                        <h4>Asisten Keperawatan</h4>
+                        <p>Siswa sedang mendalami simulasi pelayanan kesehatan primer di laboratorium medis.</p>
+                    </div>
+                </div>
+
+                <!-- 3. Siswa OTKP -->
+                <div class="gallery-item reveal-item" data-category="siswa">
+                    <img src="foto/WhatsApp Image 2026-02-07 at 22.23.32 (1).jpeg" alt="Siswa OTKP">
+                    <div class="gallery-overlay">
+                        <h4>Profesionalisme OTKP</h4>
+                        <p>Melatih manajemen perkantoran dan administrasi digital dengan standar industri.</p>
+                    </div>
+                </div>
+
+                <!-- 4. Pramuka -->
+                <div class="gallery-item reveal-item" data-category="kegiatan">
+                    <img src="foto/WhatsApp Image 2026-02-07 at 22.23.33.jpeg" alt="Kegiatan Pramuka">
+                    <div class="gallery-overlay">
+                        <h4>Kegiatan Ekstrakurikuler</h4>
+                        <p>Latihan kepramukaan untuk membangun kedisiplinan dan jiwa kepemimpinan siswa.</p>
+                    </div>
+                </div>
+
+                <!-- 5. Siswa Farmasi -->
+                <div class="gallery-item reveal-item" data-category="siswa">
+                    <img src="foto/WhatsApp Image 2026-02-07 at 22.23.35.jpeg" alt="Siswa Farmasi Industri">
+                    <div class="gallery-overlay">
+                        <h4>Farmasi Industri</h4>
+                        <p>Proses pembelajaran pembuatan dan pengawasan mutu obat-obatan di laboratorium.</p>
+                    </div>
+                </div>
+
+                <!-- 6. Siswa Akuntansi -->
+                <div class="gallery-item reveal-item" data-category="siswa">
+                    <img src="foto/WhatsApp Image 2026-02-07 at 22.23.31.jpeg" alt="Siswa Akuntansi">
+                    <div class="gallery-overlay">
+                        <h4>Akuntansi & Keuangan</h4>
+                        <p>Fokus pada ketelitian manajemen keuangan dan perpajakan berbasis teknologi informatika.</p>
+                    </div>
+                </div>
+
+                <!-- 7. Kepsek & Siswa -->
+                <div class="gallery-item reveal-item" data-category="kegiatan">
+                    <img src="foto/WhatsApp Image 2026-02-07 at 22.23.34.jpeg" alt="Kepala Sekolah & Siswa">
+                    <div class="gallery-overlay">
+                        <h4>Interaksi Akademik</h4>
+                        <p>Kepala sekolah SMKN 9 Manado berinteraksi langsung dengan siswa untuk motivasi belajar.</p>
+                    </div>
+                </div>
+
+                <!-- 8. Foto Bersama Siswa Medis -->
+                <div class="gallery-item reveal-item" data-category="siswa">
+                    <img src="foto/WhatsApp Image 2026-02-07 at 22.23.34 (1).jpeg" alt="Kelompok Siswa Medis">
+                    <div class="gallery-overlay">
+                        <h4>Kebersamaan Siswa</h4>
+                        <p>Momen diskusi kelompok antar siswa untuk menyelesaikan tugas proyek (Project Based Learning).
+                        </p>
+                    </div>
+                </div>
+
+                <!-- 9. Foto Kelompok Farmasi -->
+                <div class="gallery-item reveal-item" data-category="siswa">
+                    <img src="foto/WhatsApp Image 2026-02-07 at 22.23.35 (1).jpeg" alt="Kelompok Siswa Farmasi">
+                    <div class="gallery-overlay">
+                        <h4>Persiapan Karier</h4>
+                        <p>Visualisasi kesiapan siswa farmasi menuju dunia kerja di industri kesehatan.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center" style="margin-top: 60px;">
+                <p class="reveal-item">Lihat aktivitas harian terbaru kami di media sosial resmi:</p>
+                <div class="nav-cta reveal-item" style="justify-content: center; margin-top: 20px;">
+                    <a href="https://web.facebook.com/profile.php?id=61555610399304&sk=photos" target="_blank"
+                        class="btn btn-primary">
+                        <i class="fab fa-facebook-f" style="margin-right: 10px;"></i> Kunjungi Facebook Galeri
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2026 SMK Negeri 9 Manado. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Gallery Filter Logic
+        document.addEventListener('DOMContentLoaded', () => {
+            const filterBtns = document.querySelectorAll('.filter-btn');
+            const galleryItems = document.querySelectorAll('.gallery-item');
+
+            filterBtns.forEach(btn => {
+                btn.addEventListener('click', () => {
+                    // Active button class
+                    filterBtns.forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+
+                    // Filter items
+                    const filterValue = btn.getAttribute('data-filter');
+                    galleryItems.forEach(item => {
+                        if (filterValue === 'all' || item.getAttribute('data-category') === filterValue) {
+                            item.style.display = 'block';
+                            setTimeout(() => {
+                                item.style.opacity = '1';
+                                item.style.transform = 'scale(1)';
+                            }, 10);
+                        } else {
+                            item.style.opacity = '0';
+                            item.style.transform = 'scale(0.8)';
+                            setTimeout(() => {
+                                item.style.display = 'none';
+                            }, 300);
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
